@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <navbar class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <a href="" class="navbar-brand">ITHS demo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggler="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Här navigerar vi en navigeringsmeny-->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#apply" class="nav-link">Ansökan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#educations" class="nav-link">Ansökan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Ansökan</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </navbar>
+    <!--Första section med id apply-->
+    <section
+      class="bg-secondary text-light p-5 text-center text-sm-start"
+      id="apply"
+    >
+      <div class="container">
+        <div class="d-sm-flex">
+          <div>
+            <h1>ITHS- Här startar din IT-karriär!</h1>
+            <p>
+              IT-Högskolan i Göteborg och Stockholm erbjuder
+              kvalitetsutbildningar inom data och IT, med starka
+              branschkontakter och en väg till spännande karriärmöjligheter.
+              Ansök till våra utbildningar och få en fördel till de bästa jobben
+              inom IT.
+            </p>
+            <button class="btn btn-dark btn-lg">Ansök</button>
+          </div>
+          <img class="img-fluid w-50 ms-5" src="./images/Space.png" />
+        </div>
+      </div>
+    </section>
+
+<!--Andra section med id=educations-->
+    <section class="bg-light text-dark p-5 text-center" id="educations">
+      <h1>Våra utbildningar</h1>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="card-image">
+                <img class="img-fluid w-35" src="./images/Azureutv.png" />
+              </div>
+              <div class="card-body text-center"></div>
+              <h5 class="card-title">Cloudutvecklare Azure</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="card-image">
+                <img class="img-fluid w-35" src="./images/AI_Developer.png" />
+              </div>
+              <div class="card-body text-center"></div>
+              <h5 class="card-title">AI developer</h5>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card bg-dark text-light mb-3">
+              <div class="card-image">
+                <img class="img-fluid w-35" src="./images/Cloudutvecklare_AWS.png" />
+              </div>
+              <div class="card-body text-center"></div>
+              <h5 class="card-title">Cloudutvecklare AWS</h5>
+            </div>
+          </div>
+      </div>
+    </section>
+
+<!--Tredje section med id=contact-->
+    <section class="bg-secondary text-light p-5 text-center text-sm-start" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md"><h3>Kontakta oss</h3></div>
+                <div class="col-md"><h5>Göteborg</h5><p>031-790 42 55</p></div>
+                <div class="col-md"><h5>Stockholm</h5><p>08-557 683 53</p></div>
+                <div class="col-md"><h5>För företag</h5><p>0763157947</p></div>
+            </div>
+        </div>
+    </section>
+
+
+
+  </body>
+</html>

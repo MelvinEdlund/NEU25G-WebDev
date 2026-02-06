@@ -1,0 +1,29 @@
+
+
+#meny{background-color: black; height:40px; width:100%; padding-top: 15px;}
+#mainImage img{height: 300px;width:100%;}
+
+.headerRed{color: red;font-size:18px; font-weight: bold; font-family: sans-serif; padding-bottom: 5px;padding-top:10px;}
+.headerGreen{color: green;font-size: 18px; font-weight:normal;font-family: sans-serif;padding-bottom:15px;}
+
+nav{ display: block; 
+    margin: 0 auto;
+    width:250px;
+    margin-right: 50px;
+    }
+
+nav a{ text-decoration: none;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    
+ }
+
+ section{display: block; 
+    margin: 0 auto;
+    width:600px;}
+
+footer{display: block; 
+    margin: 0 auto;
+    width:600px;}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Alla taggar som finns i bodyn kallas för element och man kan koda mot dessa med JS-->
+
+    <!--Semanstiska taggar som beskriver olika delar av sidan. Bör användas.
+    Exempel på struktur men vi saknar CSS för att det skall kunna se mer verkligt ut-->
+    <header>Detta är en header på som skall visas överst på sidan</header>
+    <nav>Här läggs navigeringen på sidan med olika länkar</nav>
+    <section>Första delen av sidans contentyta</section>
+    <section>Andra delen av sidans contentyta</section>
+
+    <footer>Detta visas längst ned på sidan</footer>
+    <br /><br />
+    <table>
+      <thead>
+        <th>Namn</th>
+        <th>Telefonnummer</th>
+      </thead>
+      <tr>
+        <td>Lisa</td>
+        <td>070-574897594</td>
+      </tr>
+      <tr>
+        <td>Kalle</td>
+        <td>073-47823332</td>
+      </tr>
+    </table>
+    <br /><br />
+    <label>Ange användarnamn</label>
+    <input type="text" id="login-text" />
+
+    <br /><br />
+    <label>Ange lösenord</label>
+    <input type="password" id="login-pwd" />
+
+    <br /><br />
+    <button id="login-button">Logga in</button>
+
+    <br /><br />
+    <!--En iframe länkar till externt material som visas som en integrerad del av sidan-->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2133.1386776447184!2d11.997900176846837!3d57.680122173857995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff3bb1f3b2fd3%3A0x9ca6360371c2dd9a!2sEbbe%20Lieberathsgatan%2C%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1770208729473!5m2!1ssv!2sse"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <iframe
+      width="742"
+      height="417"
+      src="https://www.youtube.com/embed/FQdaUv95mR8"
+      title="HTML Tutorial for Beginners"
+      frameborder="0"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+        web-share;
+      "
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
