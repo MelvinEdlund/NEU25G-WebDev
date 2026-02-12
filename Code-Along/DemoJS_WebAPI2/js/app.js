@@ -15,8 +15,8 @@ const search = async (id) => {
     // Anropa funktionen som finns i postservice och
     // Få tillbaka ett post objekt
     const post = await getPost(id);
-
     // Lägg ut data från post på webbsidan med DOM manipulation
+    console.log(post);
     let header = document.createElement("h3");
     header.innerText = post.title;
 
