@@ -34,5 +34,8 @@ const search = async (id) => {
     data.appendChild(header);
     data.appendChild(body);
 
+    // anropa funktionen som finns i post service och få tillbaka ett post objekt
+    //Kögg ut data från post på webbsidan med dom maipulation console.log(post); let header
+    //document.createElement("h3"); header.innerText = post.title,
 
 }
