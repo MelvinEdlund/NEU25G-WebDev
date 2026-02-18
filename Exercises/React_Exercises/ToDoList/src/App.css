@@ -1,0 +1,79 @@
+body{
+  background-color: #9266ff;
+}
+.App{
+  background-color: #3f3160;
+  min-height:500px;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+#to-do-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#to-do-form input{
+  background-color: rgba(27, 112, 137, 1);
+  border: 0; 
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+#to-do-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+
+#to-do-form input:focus{
+  outline: none;
+  background-color: rgba(27, 112, 137, 0.8);
+  box-shadow: 0 0 10px rgba(27, 112, 137, 0.8);
+}
+
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgba(202, 156, 24, 1); 
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+#to-do-form button:hover {
+  background-color: rgba(202, 156, 24, 0.8);
+  transform: scale(1.05);
+}
+
+#to-do-form button:active {
+  transform: scale(0.95);
+}
+
+#to-do-form button:focus{
+  outline: none;
+}

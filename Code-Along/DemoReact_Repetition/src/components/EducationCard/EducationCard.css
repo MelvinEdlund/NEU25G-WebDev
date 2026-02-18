@@ -1,0 +1,27 @@
+
+
+.card{
+    height:400px;
+    width:300px;
+    border: 1px solid black; 
+    border-radius: 6px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.card img{
+    height: 40px;
+    width: 40px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.card h3 {
+    float: left;
+}
+
+.card-body {
+    height: 200px;
+    width: 200px;
+}
